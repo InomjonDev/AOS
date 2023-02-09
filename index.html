@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>AOS Scroll Animation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item red" data-aos="fade-in"></div>
+      <div class="item blue" data-aos="fade-in"></div>
+      <div class="item blue" data-aos="fade-in"></div>
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item red" data-aos="fade-in"></div>
+      <div class="item red" data-aos="fade-in"></div>
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item blue test" data-aos="fade-in"></div>
+
+      <div class="item red" data-aos="fade-in"></div>
+      <div
+        class="item blue"
+        data-aos="new-animation"
+        data-aos-delay="100"
+      ></div>
+      <div
+        class="item blue"
+        data-aos="my-animate"
+        data-aos-delay="200"
+        data-aos-anchor=".test"
+      ></div>
+
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item red" data-aos="fade-in"></div>
+      <div class="item red" data-aos="fade-in"></div>
+
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item" data-aos="fade-in"></div>
+      <div class="item blue" data-aos="fade-in"></div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
